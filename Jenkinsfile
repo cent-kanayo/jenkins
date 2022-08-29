@@ -17,7 +17,7 @@ pipeline{
                     cd html
                     sudo git init
                     sudo git remote add origin https://github.com/cent-kanayo/jenkins.git
-                    sudo git pull origin master
+                    sudo git pull origin main
                 '''
             }
         }
