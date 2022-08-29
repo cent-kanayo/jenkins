@@ -10,7 +10,7 @@ pipeline{
             steps{
                 echo "running"
                 sh '''
-                    sudo ssh -i /var/lib/jenkins/cent.pem -t -o StrictHostHostKeyChecking=no ubuntu@ec2-52-90-52-191.compute-1.amazonaws.com
+                    sudo ssh -i /var/lib/jenkins/cent.pem -t -o StrictHostKeyChecking=no ubuntu@ec2-52-90-52-191.compute-1.amazonaws.com
                     cd /var/www
                     sudo rm -rf html
                     sudo mkdir html
